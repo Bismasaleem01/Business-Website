@@ -1,0 +1,136 @@
+body{
+    font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+::selection{
+    background-color: #ffffff;
+    color:#1a0dab;
+}
+.nav{
+background-color: #1a0dab;
+top: 0;
+}
+.logo-box{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    width: 43px;
+    height: 43px;
+    margin-top: -25px;
+    margin-left: 10%;
+    cursor: pointer;
+}
+.logo{
+display: inline;
+margin-top: 0px;
+width: 55px;
+height:55px;
+margin-left: 15%;
+box-sizing: border-box;
+}
+.business{
+display: inline-block;
+color: white;
+margin-top:10px;
+cursor: pointer;
+
+}
+ul{
+    display: inline;
+}
+ul li{
+    display: inline-block;
+    color: white;
+    margin-left: 30px;
+    border-radius: 25px;
+    padding: 6px;
+    cursor: pointer;
+
+}
+li:hover{
+    background-color: white;
+    color:#1a0dab;
+    text-decoration: 1px #1a0dab underline;
+    cursor: pointer;
+}
+.menu-box{
+display:flex;
+margin-top:-55px;
+margin-left: 83%;
+border-radius: 50%;
+
+}
+.menu{
+    width: 40px;
+    height: 40px;
+    display: inline;
+    border-radius: 50%;
+}
+.menu:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.back{
+    height: 450px;
+    background-color: #1a0dab;
+}
+.text-box{
+    /* border: 1px solid white; */
+    display: inline-block;
+    width:420px;
+    margin-left: 14%;
+    margin-top: 50px;
+}
+.heading1{
+    font-size: 40px;
+    color: white;
+}
+.para{
+    color: white;
+}
+.started{
+    height: 40px;
+    letter-spacing: 2px;
+    width:150px;   
+    margin-top: 20px;
+    background-color: white;
+    color: #1a0dab;border: none;
+    cursor: pointer;
+    font-weight:600;
+}
+.started:hover{
+    background-color: #1a0dab;
+    color: white;
+    border: 1px solid #ffffff;
+}
+.play{
+    display: flex;
+    margin-top: -42px;
+    margin-left: 160px;
+    width:40px;
+    height: 45px;
+    cursor: pointer;
+}
+.last{
+    display: flex;
+    color: white;
+    margin-left: 210px;
+    margin-top: -30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.last:hover{
+    text-decoration: underline;
+}
+.girl{
+    margin-left: 50%;
+    margin-top: -32%;
+    display: flex;
+    width:450px;
+    height:380px;
+}
+.girl:hover{
+    filter: grayscale();
+    cursor: pointer;
+}
